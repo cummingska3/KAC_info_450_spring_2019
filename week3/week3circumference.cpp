@@ -6,10 +6,10 @@
 using namespace std;
 
 const float PI = 3.14159265358979323846;
+
 double calculateCircumference(double radius);
 
-int main()
-{
+int main() {
 	int radius;
 		double circumference;
 	cout << "Please type a radius of a circle to find out the circumference." << endl;
@@ -23,7 +23,7 @@ double calculateCircumference(double radius)
 
 {
 	double circumference;
-	circumference = 2 * PI * radius;
+	circumference = PI * radius * 2;
 	return circumference;
 
 }
