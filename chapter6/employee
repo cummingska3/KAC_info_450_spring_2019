@@ -52,4 +52,6 @@ int main() //this is where I struggle
 	getline(cin, in_comp);
 	cout << "Enter your employee salary hourly or annually" endl;
 	
+	return 0;
+	
 }
