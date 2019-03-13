@@ -1,0 +1,38 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+private:
+	char first_name[255];
+	char last_name[255];
+	bool employee_type;
+	char compensation;
+
+public:
+	void set_first_name(const char* in_name){ strcpy(first_name, in_name);}
+	void set_last_name(const char* in_name) { strcpy(last_name, in_name);}
+	void set_employee_type(bool in_type) { employee_type = in_type; }
+	void set_compensation(char in_comp) { compensation = in_comp); } 
+
+	void hourlyEntry
+		if (in_type) { in_comp = in_comp * 2000; compensation = in_comp; }
+	compensation = in_comp;
+
+	void printEntry
+		if (!in_type){
+			cout << last_name << ",";
+			cout << first_name,
+				cout << "....."
+				cout << compensation << ",annually" endl;
+		
+		
+		}
+};
+
+
+int main() //this is where I struggle 
+{
+    cout << "Hello World!\n"; 
+}
