@@ -34,5 +34,20 @@ public:
 
 int main() //this is where I struggle 
 {
-    cout << "Hello World!\n"; 
+	int in_type;
+	int in_comp;
+	for (int x=0; x < 3; x++)
+
+    cout << "This program is for Employees to input Entries" << x << endl; 
+	
+	getline(cin, in_fname);
+	cout << "Enter first name" << in_fname << endl;
+
+	getline(cin, in_lname);
+	cout << "Enter last name" << in_lname << endl;
+
+	getline(cin, in_type);
+	cout << "Enter your employee type" endl;
+
+
 }
