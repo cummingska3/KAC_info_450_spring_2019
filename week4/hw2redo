@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+
+{
+
+	char str[30][50];
+
+	int row=0;
+
+	int col=0;
+	cout << "Enter up to 30 student names."<<endl<<endl;
+
+	
+
+	for (row =0; row < 30; row++){
+	    {
+	        cin.getline(str[row], 50)
+	        if(!strcmp("\0", str[row]))
+	        {
+	            break;
+	        }
+	    }
+
+		for (col = 0; col <= row; col++) {
+
+			cout << "Students full name[col]" << endl;
+
+		}
+
+	}
+
+
+
+	return 0;
+
+}
