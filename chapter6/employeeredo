@@ -72,7 +72,7 @@ int main() //this is where I struggle
 
 	int in_comp;
 
-	for (int x=0; x < 3; x++)
+	for (int x=0; x < 3; x++){
 
 char *myvalue = (char *)malloc(255);
 
