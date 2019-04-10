@@ -1,0 +1,10 @@
+void print_data();
+	ifstream t;
+	t.open("file.txt");
+	
+	while(t){
+	    in.getline(str, 200);
+	    cout<< ""<< str << endl;
+	}
+	t.close();
+    }   
