@@ -1,10 +1,20 @@
-void print_data();
-	ifstream t;
-	t.open("file.txt");
-	
-	while(t){
-	    in.getline(str, 200);
-	    cout<< ""<< str << endl;
-	}
-	t.close();
-    }   
+  #include <iostream>
+
+using namespace std;
+
+int main () {
+  string line;
+  ifstream myfile ("KatieCP2.txt");
+  if (myfile.is_open())
+  {
+    while ( getline (myfile,line) )
+    {
+      cout << line << '\n';
+    }
+    myfile.close();
+  }
+
+  else cout << "Unable to open file"; 
+
+  return 0;
+}
