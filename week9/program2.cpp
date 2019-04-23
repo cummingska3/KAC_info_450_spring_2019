@@ -4,7 +4,7 @@ using namespace std;
 
 int main () {
   string line;
-  ifstream myfile ("KatieCP2.txt");
+  ofstream myfile ("KatieCP2.txt");
   if (myfile.is_open())
   {
     while ( getline (myfile,line) )
